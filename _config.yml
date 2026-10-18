@@ -10,6 +10,9 @@ baseurl: ""
 repository: TM8Lab/tm8lab.github.io
 logo: /assets/images/logo.jpg
 search: true
+search_full_content: true
+lunr:
+  search_within_pages: true
 breadcrumbs: true
 markdown: kramdown
 plugins:
