@@ -1,5 +1,6 @@
 ---
 title: Battery-Powered Breadboard Power Supply
+product_description: "Less cables, more fun. Power low-power breadboard projects from a single CR123A battery, with two fixed voltage rails, an adjustable analog output, and current monitoring on an onboard OLED display."
 description: "Portable CR123A breadboard supply with 5.1 V and 3.3 V rails, adjustable DAC output, and OLED current monitoring."
 permalink: /products/breadboard-power/
 toc: true
@@ -15,14 +16,14 @@ gallery:
     alt: "Illustration of breadboard power outputs and maximum tested current ratings"
 ---
 
-Less cables, more fun. Power low-power breadboard projects from a single CR123A battery, with two fixed voltage rails, an adjustable analog output, and current monitoring on an onboard OLED display.
+{{ page.product_description | markdownify }}
 
 [Buy on Tindie](https://www.tindie.com/products/tm8lab/battery-powered-breadboard-power-supply/){: .btn .btn--primary}
 
 **Battery requirement:** Use one CR123A 3 V primary lithium battery. Do not use rechargeable 3.7 V 16340/RCR123A Li-ion cells. Battery and breadboard are not included.
 {: .notice--warning}
 
-{% include gallery %}
+{% include product-gallery.html %}
 
 ## Features
 

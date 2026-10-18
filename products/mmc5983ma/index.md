@@ -1,5 +1,6 @@
 ---
 title: MMC5983MA Compass Module
+product_description: "A compact external three-axis magnetometer for drones, robotics, and embedded navigation systems, built around the MEMSIC MMC5983MA."
 description: "Compact three-axis compass with low-ripple regulation, ESD-protected I²C, and selectable pull-ups."
 permalink: /products/mmc5983ma/
 toc: true
@@ -15,11 +16,11 @@ gallery:
     alt: "Additional view of the MMC5983MA compass module"
 ---
 
-A compact external three-axis magnetometer for drones, robotics, and embedded navigation systems, built around the MEMSIC MMC5983MA.
+{{ page.product_description | markdownify }}
 
 [Buy on Tindie](https://www.tindie.com/products/tm8lab/low-noise-magnetometercompass-mmc5983ma/){: .btn .btn--primary}
 
-{% include gallery %}
+{% include product-gallery.html %}
 
 ## Features
 

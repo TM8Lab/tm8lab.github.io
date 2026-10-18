@@ -1,0 +1,5 @@
+<figure class="half">
+  {% for photo in page.gallery %}
+    <a href="{{ photo.image_path | relative_url }}"><img src="{{ photo.image_path | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy"></a>
+  {% endfor %}
+</figure>

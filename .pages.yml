@@ -23,3 +23,67 @@ content:
       - name: description
         label: Search engine description
         type: text
+      - name: feature_row
+        label: Homepage product cards
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Product name
+            type: string
+          - name: excerpt
+            label: Short description
+            type: text
+          - name: image_path
+            label: Product photo
+            type: image
+          - name: alt
+            label: Photo description for accessibility
+            type: string
+          - name: url
+            label: Product page link
+            type: string
+          - name: btn_label
+            label: Button text
+            type: string
+          - name: btn_class
+            label: Button style
+            type: string
+            readonly: true
+
+  - name: compass
+    label: MMC5983MA Compass
+    type: file
+    path: products/mmc5983ma/index.md
+    format: yaml-frontmatter
+    fields: &product_fields
+      - name: title
+        label: Product page title
+        type: string
+      - name: description
+        label: Search engine description
+        type: text
+      - name: product_description
+        label: Product introduction
+        description: The formatted introduction above the purchase button. Detailed specifications and safety notes remain in the documentation below it.
+        type: rich-text
+        options:
+          format: markdown
+      - name: gallery
+        label: Product photos
+        type: object
+        list: true
+        fields:
+          - name: image_path
+            label: Photo
+            type: image
+          - name: alt
+            label: Photo description for accessibility
+            type: string
+
+  - name: breadboard
+    label: Breadboard Power Supply
+    type: file
+    path: products/breadboard-power/index.md
+    format: yaml-frontmatter
+    fields: *product_fields
