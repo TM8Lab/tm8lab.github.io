@@ -1,35 +1,35 @@
+---
+layout: splash
+title: "From breadboard to the field..."
+description: "Electronic modules and devices, designed by TM8 Lab."
+header:
+  overlay_color: "#133b50"
+  actions:
+    - label: Explore our products
+      url: /products/
+excerpt: "Well-thought-out hardware. Practical integration. Meet our hobbyist-friendly devices, with the technical information to put them to work. Designed in Netherlands"
+feature_row:
+  - image_path: /assets/images/compass-1.jpg
+    alt: "TM8 Lab MMC5983MA compass module and protective enclosure"
+    title: MMC5983MA Compass
+    excerpt: "A compact three-axis magnetometer with a low-ripple regulator, protected I²C, and selectable pull-ups."
+    url: /products/mmc5983ma/
+    btn_label: Explore the compass
+    btn_class: btn--primary
+  - image_path: /assets/images/breadboard-1.jpg
+    alt: "TM8 Lab battery-powered breadboard power supply with OLED display"
+    title: Breadboard Power Supply
+    excerpt: "Portable prototyping power from one CR123A battery. Two fixed rails, an adjustable analog output, and current monitoring."
+    url: /products/breadboard-power/
+    btn_label: Explore the power supply
+    btn_class: btn--primary
+---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TM8 Lab | Hardware Documentation</title>
-  <style>
-    body { font-family: system-ui, sans-serif;
-           max-width: 900px; margin: 50px auto;
-           padding: 20px; line-height: 1.6; }
-    a { color: #2563eb; }
-    article { padding: 20px; margin: 20px 0;
-              border: 1px solid #ddd; border-radius: 10px; }
-  </style>
-</head>
-<body>
-  <h1>TM8 Lab</h1>
-  <p>Electronics for makers and engineers.</p>
+<h2>Small modules. Useful capabilities.</h2>
+<p>TM8 Lab develops electronic hardware for embedded projects, robotics, and the workbench. Explore the products below for features, specifications, and integration notes.</p>
 
-  <h2>Products</h2>
+{% include feature_row %}
 
-  <article>
-    <h3>MMC5983MA Magnetometer Module</h3>
-    <p>Technical documentation and integration guides.</p>
-    <a href="/products/mmc5983ma/">Documentation</a>
-  </article>
-
-  <article>
-    <h3>Breadboard Power Module</h3>
-    <p>Specifications, compatibility and usage instructions.</p>
-    <a href="/products/breadboard-power/">Documentation</a>
-  </article>
-</body>
-</html>
+<h2>From the workbench to your project</h2>
+<p>Find the technical details on each product page, check compatibility, and purchase through our Tindie listings. Prices, stock, and shipping information are maintained on Tindie.</p>
+<p><a href="{{ '/docs/' | relative_url }}" class="btn btn--primary">Product documentation</a> <a href="{{ '/about/' | relative_url }}" class="btn btn--inverse">About TM8 Lab</a></p>

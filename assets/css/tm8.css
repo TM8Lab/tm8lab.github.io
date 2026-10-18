@@ -1,0 +1,19 @@
+/* Keep the theme's layouts; balance the two-product homepage. */
+@media (min-width: 48em) {
+  .layout--splash .feature__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2em;
+  }
+  .layout--splash .feature__wrapper .feature__item {
+    float: none;
+    width: auto;
+    margin: 0;
+  }
+}
+.layout--splash .archive__item-teaser img {
+  width: 100%;
+  height: 20rem;
+  object-fit: contain;
+  background: #fff;
+}

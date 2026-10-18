@@ -1,0 +1,14 @@
+main:
+  - title: Products
+    url: /products/
+  - title: Documentation
+    url: /docs/
+  - title: About
+    url: /about/
+products:
+  - title: Products
+    children:
+      - title: MMC5983MA Compass
+        url: /products/mmc5983ma/
+      - title: Breadboard Power Supply
+        url: /products/breadboard-power/
