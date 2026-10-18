@@ -1,0 +1,25 @@
+media:
+  input: assets/images
+  output: /assets/images
+
+# Preserve the theme settings and HTML/Liquid body when editing text fields.
+settings:
+  content:
+    merge: true
+
+content:
+  - name: homepage
+    label: Homepage
+    type: file
+    path: index.html
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Main heading
+        type: string
+      - name: excerpt
+        label: Introduction below the heading
+        type: text
+      - name: description
+        label: Search engine description
+        type: text
