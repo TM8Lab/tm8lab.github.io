@@ -1,5 +1,7 @@
 ---
 layout: splash
+products_heading: "Small modules. Useful capabilities."
+products_intro: "TM8 Lab develops electronic hardware for embedded projects, robotics, and the workbench. Explore the products below for features, specifications, and integration notes."
 title: "From breadboard to the field..."
 description: "Electronic modules and devices, designed by TM8 Lab."
 header:
@@ -25,8 +27,8 @@ feature_row:
     btn_class: btn--primary
 ---
 
-<h2>Small modules. Useful capabilities.</h2>
-<p>TM8 Lab develops electronic hardware for embedded projects, robotics, and the workbench. Explore the products below for features, specifications, and integration notes.</p>
+<h2>{{ page.products_heading | escape }}</h2>
+<p>{{ page.products_intro | escape }}</p>
 
 {% include feature_row %}
 

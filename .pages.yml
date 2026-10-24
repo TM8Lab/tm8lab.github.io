@@ -23,6 +23,12 @@ content:
       - name: description
         label: Search engine description
         type: text
+      - name: products_heading
+        label: Heading above product cards
+        type: string
+      - name: products_intro
+        label: Paragraph above product cards
+        type: text
       - name: feature_row
         label: Homepage product cards
         type: object
