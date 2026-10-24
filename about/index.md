@@ -1,9 +1,9 @@
 ---
 title: About TM8 Lab
 permalink: /about/
-description: "A small workshop, wife and husband, longtime hobbyists researching
-  and making small gadgets as a hobby. "
 ---
+A small workshop, wife and husband, longtime hobbyists researching and making small gadgets as a hobby. 
+
 
 
 ## Get in touch
