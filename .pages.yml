@@ -93,3 +93,22 @@ content:
     path: products/breadboard-power/index.md
     format: yaml-frontmatter
     fields: *product_fields
+
+  - name: about
+    label: About page
+    type: file
+    path: about/index.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: description
+        label: Search engine description
+        type: text
+      - name: body
+        label: Page content
+        description: Edit the About text, headings, contact links, and images here.
+        type: rich-text
+        options:
+          format: markdown
